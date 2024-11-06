@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Coir Wave Impex</title>
+    <link rel="icon" type="image/x-icon" href="./Image/titleicon.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!-- <link rel="stylesheet" href="./styles2.css" /> -->
+    <link rel="stylesheet" href="styles2.css" />
+    <script src="script.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+</head>
+
+<body>
+    <nav class="nav-outer">
+        <div class="Nav-div">
+            <img src="./Image/logo3.png" alt="logo" class="logo">
+            <ul class="topnav" id="myTopnav">
+                <li class="list-item"><a href="#Home">Home</a></li>
+                <li class="list-item"><a href="#About-us">About Us</a></li>
+                <li class="list-item"><a href="#Products">Products</a></li>
+                <li class="list-item"><a href="#Why-us">Choose Us</a></li>
+                <li class="list-item"><a href="#Contact">Contact</a></li>
+            </ul>
+            <div class="icon" id="Icon">
+                <a href="javascript:void(0);" onclick="responsiveNav()"><i class="fa fa-bars"></i></a>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="Outer">
+        <div class="content" id="Home">
+            <div class="title" style="display:flex; flex-direction : row ; flex-wrap:wrap">
+                <label class="heading1">Welcome To</label>
+                <label class="heading2">Coir Wave Impex</label>
+            </div>
+            <div class="paragraph">
+                <p class="info1">
+                    Located in Pollachi, Tamil Nadu, Coir Wave Impex specializes in exporting high-quality coconut-based
+                    products,
+                    with a focus on <span style="font-weight: bold">Coir Fibers</span> and <span
+                        style="font-weight: bold">
+                        Coco
+                        Peat
+                    </span>. We are committed to sustainable practices and delivering eco-friendly products to global
+                    markets.
+                </p>
+                <h4 style="font-weight: bold">Coir Fibers</h4>
+                <p id="about1">
+                    Coir fiber, extracted from coconut husks, is strong and durable, used in ropes, mats, brushes, and
+                    more.
+                    Our coir fibers are biodegradable, high in tensile strength, and available in white and brown
+                    varieties,
+                    suitable for industrial and domestic use.
+                </p>
+                <h4 style="font-weight: bold">Coco Peat</h4>
+                <p>
+                    Coco peat, or coir pith, is a natural by-product of coconut husks, widely used in horticulture and
+                    agriculture.
+                    It has excellent water retention properties, making it ideal for nurseries, greenhouses, and
+                    gardening.
+                    Our
+                    coco peat is 100% organic, eco-friendly,
+                    and available in blocks, briquettes, or loose form.
+                </p>
+            </div>
+        </div>
+
+        <div class="content" id="About-us">
+            <div class="title">
+                <label class="heading1">About</label>
+                <label class="heading2">Us</label>
+            </div>
+            <div class="paragraph">
+                <p>
+                    Coir Wave Impex, a leading exporter of eco-friendly coconut products based in Pollachi, Tamil Nadu.
+                    Specializing in coco peat and coir fibers,
+                    we supply high-quality, sustainable materials to customers worldwide.
+
+                    Our coco peat is ideal for agriculture and horticulture, known for its superior water retention and
+                    soil
+                    conditioning properties, while our coir fibers are durable,
+                    biodegradable, and widely used in industries like erosion control and manufacturing.
+                </p>
+                <p>
+                    At Coir Wave Impex, sustainability is at the heart of everything we do. We follow environmentally
+                    conscious production processes to deliver products that support greener practices.
+                    Our focus on quality assurance ensures that every product meets international standards.
+
+                    With a commitment to customer satisfaction, we provide reliable, timely deliveries and customized
+                    solutions to
+                    meet your specific needs. Choose Coir Wave Impex for natural, high-quality
+                    that benefit both your business and the planet.
+                </p>
+            </div>
+        </div>
+
+        <div class="content" id="Products">
+            <div class="title">
+                <label class="heading1">Our</label>
+                <label class="heading2">Products</label>
+            </div>
+
+            <div class="row">
+                <div class="product col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="img-container">
+                        <img height="230px" width="230px" src="./Image/5kgblock.png" />
+                    </div>
+                    <div class="product-content">
+                        <h4>5 Kg Coco Peat Block</h4>
+                        <button class="btn btn-success" onclick="sendInquiry('5kg')">Send Enquiry</button>
+                    </div>
+                </div>
+
+                <div class="product col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="img-container">
+                        <img height="230px" width="230px" src="./Image/650gbricks.png" />
+                    </div>
+                    <div class="product-content">
+                        <h4>650g Coco Peat Bricks </h4>
+
+                        <button class="btn btn-success" onclick="sendInquiry('650g')">Send Enquiry</button>
+                    </div>
+                </div>
+                <div class="product col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="img-container">
+                        <img height="230px" width="230px" src="./Image/fiber-2.png" />
+                    </div>
+                    <div class="product-content">
+                        <h4>Coir Fiber</h4>
+                        <button class="btn btn-success" onclick="sendInquiry('fiber')">Send Enquiry</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="content" id="Why-us">
+            <div class="title">
+                <label class="heading1">Why</label>
+                <label class="heading2">Choose Us</label>
+            </div>
+            <div class="paragraph">
+                <p>
+                    At Coir Wave Impex , we strive to be more than just a manufacturer of coconut products. Here’s why
+                    we
+                    stand
+                    out
+                </p>
+                <h4 style="font-weight: bold">1. Sustainability</h4>
+                <p>
+                    Our commitment to the environment is at the core of our operations. We use eco-friendly practices in
+                    every
+                    step of our production process, ensuring
+                    that we minimize waste and conserve natural resources. From sourcing coconuts from local farms to
+                    using
+                    renewable materials, we take pride in delivering
+                    products that support a sustainable future. Our coco peat and coir fibers are 100% natural,
+                    biodegradable, and
+                    help promote greener agricultural and industrial
+                    practices worldwide.
+                </p>
+                <h4 style="font-weight: bold">2. Quality Assurance</h4>
+                <p>
+                    We never compromise on quality. Every batch of coco peat and coir fiber is processed under strict
+                    quality
+                    control measures, ensuring that our products meet international
+                    standards. Our advanced processing techniques guarantee consistent product quality, whether it’s the
+                    texture
+                    and water retention of our coco peat or the strength and
+                    durability of our coir fibers. You can trust that we deliver only the finest products for your
+                    business
+                    needs.
+                </p>
+
+                <h4 style="font-weight: bold">3. Timely Delivery</h4>
+                <p>
+                    In today’s fast-paced world, timely delivery is essential. We understand the importance of receiving
+                    products
+                    when you need them, and we ensure that all
+                    orders are processed and shipped promptly. Our efficient logistics network allows us to deliver our
+                    products
+                    worldwide,
+                    meeting your deadlines with reliable service.
+                </p>
+                <h4 style="font-weight: bold">4. Customer Focus</h4>
+                <p>
+                    At Coir Wave Impex, we put your satisfaction first. We work closely with our customers to understand
+                    their specific needs and provide tailored solutions.
+                    Whether you require custom packaging, specific product specifications, or just-in-time delivery,
+                    we are dedicated to ensuring you get exactly what you need.
+                </p>
+            </div>
+        </div>
+
+            <div class="spinner-container" id="spinner">
+                <div class="spinner"></div>
+            </div>
+    </div>
+
+
+
+    <div class="footer" id="Contact">
+        <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+            <div class="footer-title">
+                <label class="heading1">Get In Touch With</label>
+                <label class="Foot-heading2">Coir Wave Impex</label>
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <!-- <form action="https://formspree.io/f/xjkbngdl" id="MailModal" method="post">
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label for="txtMail" style="color:#FCFCFC">Email address</label>
+                            <input type="email" name="Email" class="form-control" id="txtMail"
+                                placeholder="name@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="txtSubject" style="color:#FCFCFC">Subject</label>
+                            <input type="text" name="Subject" class="form-control" id="txtSubject" placeholder="Subject"
+                                required>
+                        </div>
+                        <div class="form-group">
+                            <label for="txtMessage" style="color:#FCFCFC">Message</label>
+                            <textarea name="Message" class="form-control" id="txtMessage" rows="3" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-success">Submit</button>
+                    </div>
+                </form> -->
+                <form method="post" id="formMessage" action="https://sheetdb.io/api/v1/9a5fuhsglq433">
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label for="txtMail" style="color:#FCFCFC">Email address</label>
+                            <input type="email" name="data[Mail]" class="form-control" id="txtMail"
+                                placeholder="name@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="txtSubject" style="color:#FCFCFC">Subject</label>
+                            <input type="text" name="data[Subject]" class="form-control" id="txtSubject"
+                                placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="txtMessage" style="color:#FCFCFC">Message</label>
+                            <textarea name="data[Message]" class="form-control" id="txtMessage" rows="3"
+                                required></textarea>
+                        </div>
+                        <input type="hidden" name="data[Date]" id="txtDate">
+                        <button type="submit" class="btn btn-success">Submit</button>
+                    </div>
+                </form>
+                <div class="modal-footer">
+
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <h4 style="color:#FCFCFC"><i class="fa fa-envelope" style="color: #177F0D;"></i> E-Mail</h4>
+                <p class="para" style="color:#FCFCFC">
+                    <a style="color:#FCFCFC" href="mailto:narendran1312@outlook.com">narendran1312@outlook.com</a>
+                    <a style="color:#FCFCFC" href="mailto:coirwaveimpex@outlook.com">coirwaveimpex@outlook.com</a>
+                </p>
+                <br />
+                <h4 style="color:#FCFCFC">Address</h4>
+                <p class="para" style="color:#FCFCFC">
+                    <i class="fa fa-map-marker" style="font-size: 16px; color: #177F0D"></i> S. F.
+                    No. 1/38,
+                    Nattukalpalayam,
+                    Kanjampatti (po), Pollachi TK, Pollachi - 642003, TN, India
+                </p>
+                <p class="para" style="color:#FCFCFC">
+                    <i class="fa fa-phone" style="font-size: 16px; color: #177F0D"></i>
+                    (+91) 9488440505
+                </p>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d426.5238113407452!2d77.05097731752218!3d10.617890464696485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sgoogle%20maps!5e1!3m2!1sen!2sin!4v1730168750465!5m2!1sen!2sin"
+                    width="100%" height="150px" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            </div>
+        </div>
+    </div>
+
+    <form method="post" id="InquiryModal" action="https://sheetdb.io/api/v1/9a5fuhsglq433" class="modal">
+        <div class="modal-disp">
+            <div class="modal-content col-lg-4 col-md-6 col-sm-8 col-xs-10">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <div class="modal-header">Send Inquiry</div>
+                <div class="modal-body">
+                    <label for="email">Your Email</label>
+                    <input type="email" name="data[Mail]" class="form-control" id="email" placeholder="Enter email"
+                        required>
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                        else.</small>
+                    <input type="hidden" name="data[Subject]" id="eqSubject">
+                    <input type="hidden" name="data[Message]" id="eqMessage">
+                    <input type="hidden" name="data[Date]" id="eqDate">
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-success">Submit</button>
+                </div>
+            </div>
+        </div>
+    </form>
+
+
+
+</body>
+
+</html>
